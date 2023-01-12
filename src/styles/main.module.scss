@@ -1,0 +1,16 @@
+.frameFlowContainer {
+    display: flex;
+    justify-content: space-between;
+    .btn {
+        width: 10rem;
+        height: 4rem;
+        background-color: white;
+    }
+}
+
+.mainImg {
+    height: 80vh;
+    width: 100vw;
+    background: center;
+    background-repeat: no-repeat !important;
+}
