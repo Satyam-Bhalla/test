@@ -17,7 +17,7 @@ const reducerFnA = (state = initialState, action) => {
                 : { currentFrame: state.currentFrame });
         case "updateBoxStructure":
             return ({ ...state, boxStructure: [...state.boxStructure, action.payload] });
-        case "deleteBox":
+        case "DELETEBOX":
             return ({ ...state, boxStructure: state.boxStructure.filter((box) => box.id !== action.payload) });
         default:
             return state;
